@@ -6,7 +6,7 @@ Api is similar to Scikit-learn.
 ## Example
 from KMeansClustering import KMeans as KMn \
 X, y = make_blobs(n_samples=100, centers=5, n_features=20, random_state=0) \
-sample = pd.DataFrame(X) \
+sample = pd.DataFrame(X) 
 
 kmn = KMn(5) \
 kmn.fit(sample) \
